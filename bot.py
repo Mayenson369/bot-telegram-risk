@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler
 # Token limpio y sin espacios
 
 API_URL = "http://127.0.0.1:8000/calcular"
-TOKEN = "8645865598:AAHQRaWhZmcuvHQsXNhXgJj1rbCHts4SRQE"
+TOKEN = "123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ"
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "¡Bienvenido al Bot de Gestión de Riesgo SaaS! 🚀\n\n"
